@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins|Roboto');
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.25em;
+}
+
+h2, nav a {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.125em;
+}
+form label, form input, form textarea {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+}
+figcaption, figcaption a {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+p, li {
+    font-family: 'Roboto', sans-serif;
+}
