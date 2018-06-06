@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>ØkoLogic - Grøntsager</title>
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <a href="index.html"><img src="img/logo.png" alt="ØkoLogic logo"></a>
+        </header>
+        <nav class="menu">
+            <img id="burgermenu" src="img/menu-button-of-three-horizontal-lines.png" alt="burgermenu ikon">
+            <ul>
+                <li><a href="index.html">Forside</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="produkter.html">Produkter</a></li>
+                <li><a href="omos.html">Om os</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h1>Produkter</h1>
+            <select onchange="location = this.value;">
+                <option value="choose">Vælg kategori</option>
+                <option value="produkter.html">Grøntsager</option>
+                <option value="produkter2.html">Kød</option>
+            </select>
+            <div class="gallery productList">
+                <figure>
+                    <h3>Gulerødder</h3>
+                    <img src="img/produkter/guleroed.jpg" alt="Gulerødder">
+                    <figcaption>Se flere produkter</figcaption>
+                </figure>
+                <figure>
+                    <h3>Agurker</h3>
+                    <img src="img/produkter/agurk.jpg" alt="Agurker">
+                    <figcaption>Se flere produkter</figcaption>
+                </figure>
+                <figure>
+                    <h3>Kartofler</h3>
+                    <img src="img/produkter/kartofler.jpg" alt="Kartofler">
+                    <figcaption>Se flere produkter</figcaption>
+                </figure>
+                <figure>
+                    <h3>Peberfrugter</h3>
+                    <img src="img/produkter/peberfrugt.jpg" alt="Peberfrugter">
+                    <figcaption>Se flere produkter</figcaption>
+                </figure>
+                <figure>
+                    <h3>Salat</h3>
+                    <img src="img/produkter/salat.jpg" alt="Salat">
+                    <figcaption>Se flere produkter</figcaption>
+                </figure>
+                <figure>
+                    <h3>Tomater</h3>
+                    <img src="img/produkter/tomater.jpg" alt="Tomater">
+                    <figcaption>Se flere produkter</figcaption>
+                </figure>
+                <figure>
+                    <h3>Asparges</h3>
+                    <img src="img/produkter/asparges.jpg" alt="Asparges">
+                    <figcaption>Se flere produkter</figcaption>
+                </figure>
+                <figure>
+                    <h3>Kål</h3>
+                    <img src="img/produkter/kaal.jpg" alt="Kål">
+                    <figcaption>Se flere produkter</figcaption>
+                </figure>           
+            </div>
+        </main>
+        <footer>
+            <div class="social">
+                <a href="http://www.facebook.com"><img src="img/facebook.png" alt="Facebook ikon"></a>
+                <a href="http://www.instagram.com"><img src="img/instagram.png" alt="Instagram ikon"></a>
+                <a href="http://www.linkedin.com"><img src="img/linkedin.png" alt="LinkedIn ikon"></a>
+            </div>
+            <div class="copyright">
+                <p>&COPY; Copyright ØkoLogic.dk</p>
+            </div>
+            <div class="oko">
+                <img src="img/oekomaerket.png" alt="Øko mærket">
+            </div>
+        </footer>
+    </div>
+    <script src="js/menu.js"></script>
+</body>
+</html>

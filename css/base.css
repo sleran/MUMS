@@ -1,0 +1,27 @@
+body, p {
+    margin: 0;
+    padding: 0;
+}
+a, a:hover {
+    text-decoration: none;
+    color: black;
+}
+ul li {
+    list-style: none;
+    margin-right: 2.4em;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+button {
+    margin: 3em auto;
+    padding: 1.25em 4.375em;
+    background-color: #effe70;
+    border: none;
+    border-bottom: 1px solid #666;
+}
+:root {
+    --slider-height: auto;
+    --dot-size: 20px;
+}
